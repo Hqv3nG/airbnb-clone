@@ -1,0 +1,49 @@
+.banner {
+    height: 50vh;
+    position: relative;
+    background: url(https://cdn.home-designing.com/wp-content/uploads/2016/07/bean-bag-chairs-in-modern-living-room.jpg)   center center; 
+  
+}
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 300px;
+}
+.banner__search {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.banner__search > Button {
+ background-color: white !important; 
+ text-transform: inherit !important;
+ font-weight: 900 !important;
+ color: #ff7779 !important; 
+}
+
+.banner__info > Button {
+    background-color: #ff7779;
+    color: white; 
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > Button:hover {
+    background-color:white;
+    color:  #ff7779; 
+}
+.banner__info > h5 {
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: xx-large; 
+}
